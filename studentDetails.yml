@@ -1,0 +1,25 @@
+---
+---
+- SDetails: 
+      - name: Jyothi
+        phno: 8181818181
+        course: devops
+        address: hyd
+
+      - name: mahesh
+        phno: 7171717171
+        course: devops
+        address: chennai
+
+      - name: prakesh
+        phno: 6161616161
+        course: devops
+        address: kphb
+
+
+       
+
+
+
+
+    
