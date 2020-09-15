@@ -1,0 +1,11 @@
+---
+- hosts: 172.31.46.104
+  become: yes
+  vars:
+    var1: git
+    var2: tree
+    var3: wget
+  tasks:
+  - name:  dispaly var1
+    debug:
+      msg: "{{var1}}"
