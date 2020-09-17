@@ -3,3 +3,14 @@
   become: yes
   tasks:
   - include: myfile.yml
+
+  - name: install apache2 webserver
+    apt:
+      name: apache2
+      state: present
+
+  - name: restart apache2 webserver
+    service:
+      name: apache2
+      state: restarted
+    
