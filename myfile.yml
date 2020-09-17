@@ -1,0 +1,5 @@
+---
+- name: i want to creaet a file
+  file:
+    path: /home/ubuntu/mahatextfile.txt
+    state: touch
