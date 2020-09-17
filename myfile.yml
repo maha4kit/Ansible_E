@@ -1,5 +1,8 @@
 ---
-- name: i want to creaet a file
-  file:
-    path: /home/ubuntu/mahatextfile.txt
-    state: touch
+- hosts: 172.31.46.104
+  become: yes
+  tasks:
+  - name: i want to creaet a file
+    file:
+      path: /home/ubuntu/mahatextfile.txt
+      state: touch
