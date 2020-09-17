@@ -1,2 +1,7 @@
 ---
 # tasks file for mywebrole
+
+
+- name: i want to install websevers
+  apt:
+    name: apache2
